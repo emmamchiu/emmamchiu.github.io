@@ -65,6 +65,27 @@
       margin-bottom: 25px;
     }
 
+    /* Header layout */
+    .intro {
+      display: flex;
+      align-items: flex-start;
+      gap: 35px;
+    }
+
+    .intro-text {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .profile-photo {
+      width: 175px;
+      height: 215px;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 4px;
+      flex-shrink: 0;
+    }
+
     nav {
       display: flex;
       flex-wrap: wrap;
@@ -94,16 +115,6 @@
       margin-top: 4px;
     }
 
-    ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-
-    li {
-      margin: 0 0 8px;
-    }
-
     footer {
       border-top: 1px solid #eee;
       color: #888;
@@ -121,6 +132,16 @@
         font-size: 41px;
       }
 
+      .intro {
+        flex-direction: column;
+        gap: 24px;
+      }
+
+      .profile-photo {
+        width: 155px;
+        height: 190px;
+      }
+
       section {
         margin-top: 40px;
       }
@@ -132,25 +153,43 @@
   <main>
 
     <header>
-      <h1>Emma Chiu</h1>
-      <p class="sub">
-        Economist at Walmart · Northwestern University '24
-      </p>
+      <div class="intro">
 
-      <p>
-        I'm an economist interested in labor economics,
-        education, and applied econometrics. At Walmart,
-        I work on field experiments and causal analyses
-        related to labor supply and incentives.
-        I studied economics and mathematics at
-        Northwestern University.
-      </p>
+        <div class="intro-text">
+          <h1>Emma Chiu</h1>
 
-      <nav aria-label="Quick links">
-        <a href="docs/cv.pdf">CV</a>
-        <a href="mailto:emmamchiu@gmail.com">Email</a>
-        <a href="https://github.com/YOUR_USERNAME">GitHub</a>
-      </nav>
+          <p class="sub">
+            Walmart Economics · Northwestern University '24
+          </p>
+
+          <p>
+            Welcome! In my current role on Walmart's Economics team,
+            I work on field experiments and causal analyses
+            related to labor supply and incentives. I graduated from
+            Northwestern University in 2024, where I studied economics,
+            mathematics, and data science. My research interests span labor
+            economics, education, and applied econometrics.
+          </p>
+
+          <nav aria-label="Quick links">
+            <a href="docs/cv.pdf" target="_blank" rel="noopener">
+              CV
+            </a>
+            <a href="mailto:emmamchiu@gmail.com">
+              Email
+            </a>
+          </nav>
+        </div>
+
+        <img
+          src="Headshot - Emma Chiu.jpg"
+          alt="Portrait of Emma Chiu"
+          class="profile-photo"
+          width="175"
+          height="215"
+        >
+
+      </div>
     </header>
 
     <section>
@@ -164,11 +203,6 @@
         <div class="muted">
           With Stéphane Mechoulan · Work in progress
         </div>
-        <div class="paper">
-          <a href="docs/law-firms-paper.pdf">
-            Paper (PDF)
-          </a>
-        </div>
       </div>
 
       <div class="item">
@@ -178,31 +212,15 @@
           Schools in Illinois
         </div>
         <div class="muted">
-          Northwestern University honors thesis · 2024
+          Northwestern University undergraduate honors thesis · 2024
         </div>
         <div class="paper">
-          <a href="docs/honors-thesis.pdf">
+          <a href="Thesis - Emma Chiu.pdf"
+             target="_blank" rel="noopener">
             Thesis (PDF)
           </a>
         </div>
       </div>
-    </section>
-
-    <section>
-      <h2>Documents &amp; Links</h2>
-
-      <ul>
-        <li>
-          <a href="docs/cv.pdf">
-            Curriculum vitae (PDF)
-          </a>
-        </li>
-        <li>
-          <a href="mailto:emmamchiu@gmail.com">
-            Email me
-          </a>
-        </li>
-      </ul>
     </section>
 
     <footer>
