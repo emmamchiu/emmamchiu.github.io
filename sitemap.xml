@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+       <loc>https://emmamchiu.github.io/</loc>
+       <lastmod>2026-11-23T19:14:59+00:00</lastmod>
+       <priority>1.0000</priority>
+  </url>
+  <url>
+       <loc>https://emmamchiu.github.io/CV%20-%20Emma%20Chiu.pdf</loc>
+       <lastmod>2026-11-23T19:14:59+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://emmamchiu.github.io/Thesis%20-%20Emma%20Chiu.pdf</loc>
+       <lastmod>2026-11-23T19:14:59+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+</urlset>
